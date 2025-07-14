@@ -1,0 +1,24 @@
+CRAPII prompting GPT-4o-mini example: 
+For example, if the input is:
+COURSERA - University of Virginia, Darden School of Business - Design Thinking Assignment    Dharmendra Asiri    Washington,DC / March 8, 2019    email djones@gmail.com  linkedIn https://www.linkedin.com/in/mmartinez
+The output should be:
+COURSERA - University of Virginia, Darden School of Business - Design Thinking Assignment    @@@Dharmendra Asiri###    Washington,DC / March 8, 2019    email QQQdjones@gmail.com^^^  linkedIn &&&https://www.linkedin.com/in/mmartinez$$$
+Another example:
+I do conclude, my assignment by thanking Lecturers, University of Virginia and other  partners who contributed to this online courses.\n\nMay God bless you.\n\nEslam Abo Fatma\n\nRwanda- Africa\n\nEmail: murraythomas@gmail.com\n\nTel: (223)392-2765\n\n'
+The output should be:
+I do conclude, my assignment by thanking Lecturers, University of Virginia and other  partners who contributed to this online courses.\n\nMay God bless you.\n\n@@@Eslam Abo Fatma###\n\nRwanda- Africa\n\nEmail: QQQmurraythomas@gmail.com^^^\n\nTel: %%%(223)392-2765~~~\n\n'
+Another example:
+An article was published which  described one of the most successful entrepreneurs in the world, Jeff Bezos. It was mentioned  that Bezos insists that no PPTs are shown during the board meetings but stories are told.
+The output should be:
+An article was published which  described one of the most successful entrepreneurs in the world, Jeff Bezos. It was mentioned  that Bezos insists that no PPTs are shown during the board meetings but stories are told.
+ 
+
+
+TSCC prompting GPT-4o-mini example: 
+Example 1: “Jakndnd is talking about her brother pIoM jKpjhobj, who's skipped her birthday party a few times.”\n
+You should label Jakndnd and pIoM jKpjhobj as PII since it appears that Jakndnd exhibits human behavior, and pIoM jKpjhobj is her brother.\n
+Example 2: “Occasionally, Anfoaipjqd likes to have a coffee chat with her friends.”\n
+You should label Anfoaipjqd as PII since only humans can have coffee chats.\n
+Example 3: “Ascar likes to talk about gioibajhjjo.”\n
+You should label both Ascar and gioibajhjjo since you cannot be sure whether gioibajhjjo is a person or not, so you should consider it to avoid false negatives. Ascar is talking, so he is also a human.\n
+
